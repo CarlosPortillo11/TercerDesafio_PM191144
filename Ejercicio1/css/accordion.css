@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+}
+
+header h1 {
+    color: transparent;
+    filter:progid:DXImageTransform.Microsoft.DropShadow(color=#1E3C05, offX=1, offY=1);
+    margin: 16px 0;
+    text-align: center;
+    text-shadow: rgba(30, 60, 5, 0.35) 0 0px 0px, 
+                 rgba(0, 30, 0, 0.08) 0px 2px 2px, 
+                 rgba(0, 30, 0, 0.20) 0px 2px 1px, 
+                 rgba(0, 30, 0, 0.40) 0px 2px 1px, 
+                 rgba(0, 0, 0, 0.08) -5px 5px 2px;
+}
+
+.accordionGiftLelo {
+	margin: 0 auto;
+	width: 360px;
+}
+
+.accordionWrapper{
+    background-color:#fff; 
+    display:inline-block; 
+    overflow:hidden;
+}
+
+.accordionWrapper img{
+    border:0; 
+    margin:0; 
+    padding:0;
+    vertical-align: top; 
+}
+
+.accordionWrapper div{
+    display:inline; 
+    float:left; 
+    margin:auto;
+}
+
+.accordionWrapper div.title{
+    cursor:pointer;
+}
+
+.accordionWrapper div.content{
+    display:none;
+}
+
+.set{
+    border: 1px solid gold;
+}
+
+.set1{
+    background-color:white;
+}
+
+.set2{
+    background-color:white;
+}
+
+.set3{
+    background-color:white;
+}
+
+.set4{
+    background-color:white;
+}
+
+.set5{
+    background-color:white;
+}

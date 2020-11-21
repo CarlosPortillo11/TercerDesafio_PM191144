@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>HearIt</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Música">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/accordion.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/Ejercicio1_Scroll.js"></script>
+    <script src="js/jquery.msAccordion.js"></script>   
+</head>
+<body>
+    <ul id="menu">
+        <li data-menuanchor="Inicio" class="active"><a href="#Inicio">Inicio</a></li>
+        <li data-menuanchor="Artistas"><a href="#Artistas">Bandas</a></li>
+        <li data-menuanchor="Inicios"><a href="#Inicios">Inicios</a></li>
+        <li data-menuanchor="IniciosPartII"><a href="#IniciosPartII">Inicios PartII</a></li>
+        <li data-menuanchor="Sencillos"><a href="#Sencillos">Sencillos</a></li>
+    </ul>
+    <div id="fullpage">
+        <div class="section contentPart">
+            <div class="container">
+                <h1>Tocando El Alma Con Tan Solo Notas</h1>
+                <div class="inicio-ex">
+                    <img src="img/Queen.jpg">
+                </div>
+                <div class="musicInfo">
+                    <p>
+                        El impacto que la música puede tener sobre la sociedad actual es un tema poco discutible,
+                        la música tiene la capacidad de hacer sentir demasiadas sensaciones y emociones con tan solo
+                        la elección correcta de notas y palabras, y debido a la gran variedad de estilos musicales y
+                        temas sobre los cuales inspirarse, la música es una de las mejores formas de comunicar
+                        sensaciones.
+                    </p>
+                    <br>
+                    <p>
+                       Desde bandas míticas que han cambiado el rumbo con el cual la música se ha ido desarrollando
+                       a lo largo del tiempo, hasta one man hits que sonaron en absolutamente todos lados y rompieron
+                       el concepto de la palabra "Viral" que se tenía en ese momento, volviendola a reestructurar y reinventarla
+                       cada vez que sucedía siendo más rompedora que la anterior.
+                       Hay tantos generos que es casi imposible que no haya uno que pueda gustarle a cada persona en el mundo,
+                       ritmos tranquilos, movidos, alegres, tristes, inspiradores, rompedores, vacíos, llenos de mensaje entre líneas, etc.
+                       La variedad que se puede llegar a lograr y a veces los pocos recursos que pueden hacer que unos se diferencien de otros
+                       , con el nacimiento de un nuevo genero siempre estaba por detras un genio incomprendido con ganas de reinventar lo que 
+                       la música era en ese momento para adaptarse y poder expresar lo que sentía y qué, a su pensar, muchas personas podían
+                        tener la necesidad o deseo de escuchar algo parecido, empatizando y generando un vínculo invisible desde el primer momento.
+                    </p>
+                    <P></P>
+                </div>
+            </div>
+        </div>
+        <div class="section contentPart">
+            <div class="container-flex">
+                <h1>Artistas/Bandas Favoritas</h1>
+                <div id="accordion3" class="accordionWrapper" style="width:auto; height: auto;">
+                    <div class="set set1">
+                        <div class="title">Imagine Dragons</div>
+                        <div class="content"><img src="img/ImagineDragons.jpg" width="450" height="450" /></div>
+                    </div>
+                    <div class="set set2">
+                        <div class="title">Post Malone</div>
+                        <div class="content"><img src="img/PostMalone.jpg" width="450" height="450" /></div>
+                    </div>
+                    <div class="set set3">
+                        <div class="title">Khalid</div>
+                        <div class="content"><img src="img/Khalid.png" width="450" height="450" /></div>
+                    </div>
+                    <div class="set set4">
+                        <div class="title">Foals</div>
+                        <div class="content"><img src="img/Foals.jpg" width="450" height="450" /><br />
+                        </div>
+                    </div>
+                    <div class="set set5">
+                        <div class="title">Fall Out Boy</div>
+                        <div class="content"><img src="img/Fall Out Boy.jpg" width="450" height="450" /></div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function () {
+                    $("#accordion3").msAccordion({ vertical: true });
+                });
+            </script>
+        </div>
+        <div class="section contentPart">
+            <div class="container-flex">
+                <h1>Inicios</h1>
+                <div class="starts">
+                    <h2>Imagine Dragons</h2><br>
+                    <img src="img/ImagineDragons.jpg" class="group-images">
+                    <p>
+                        En 2008, el vocalista Dan Reynolds conoció al baterista Andrew Tolman 
+                        en la Universidad Brigham Young, donde ambos eran estudiantes​ Reynolds y Tolman 
+                        añadieron a Andrew Beck, Dave Lemke, y Aurora Florence para tocar la guitarra, el bajo, y el piano, 
+                        respectivamente. 
+                    </p>
+                </div>
+                <div class="starts">
+                    <h2>Foals</h2><br>
+                    <img src="img/Foals.jpg" class="group-images">
+                    <p>
+                        Jack Bevan y Yannis Philippakis, amigos desde la infancia, formaban originariamente parte de 
+                        una banda de math rock llamada The Edmund Fitzgerald que se disolvió después de afirmar 
+                        que las cosas habían llegado a ser «demasiado serias» y querían tener «mayor diversión realizando su música». 
+                    </p>
+                </div>
+                <div class="starts">
+                    <h2>Khalid</h2><br>
+                    <img src="img/Khalid.png" class="group-images">
+                    <p>
+                        Khalid Robinson nació el 11 de febrero de 1998 en Fort Stewart, Georgia.​ 
+                        Pasó su infancia en distintos lugares de Estados Unidos, y 6 años en Heidelberg, 
+                        Alemania debido a que su madre Linda trabajaba como militar.2​ Su madre más tarde 
+                        recibiría una oferta para cantar con la Banda del Ejército de los Estados Unidos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section contentPart">
+            <div class="container-flex">
+                <div class="starts">
+                    <h2>Post Malone</h2><br>
+                    <img src="img/PostMalone.jpg" class="group-images">
+                    <p>
+                        Según Post, eligió "Post Malone" como su nombre artístico cuando tenía 14 o 15 años. 
+                        Se rumoreaba que el nombre era una referencia al jugador de baloncesto Karl Malone. 
+                        En realidad fue el resultado de introducir su verdadero nombre en un generador de nombres de rap en línea. 
+                        A los 16 años, usando Audacity, Post creó su primer mixtape, Young and After Them Riches.
+                    </p>
+                </div>
+                <div class="starts">
+                    <h2>Fall Out Boy</h2><br>
+                    <img src="img/Fall Out Boy.jpg" class="group-images">
+                    <p>
+                        Fall Out Boy es una banda de pop rock de Chicago, Illinois (EE. UU.), formada en 2001. 
+                        La banda consta de cuatro miembros: Patrick Stump (vocalista principal, guitarra rítmica), 
+                        Pete Wentz (bajista y cantante secundario), Joe Trohman (guitarrista principal) y Andrew Hurley 
+                        (batería) y el grupo técnico, conformado por Johnny Thorpe y Paul Connor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section contentPart">
+            <div class="hitsPlayer">
+                <h1>Sencillos principales de los artistas.</h1>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+        anchors: ['Inicio', 'Artistas', 'Inicios','IniciosPartII','Sencillos'],
+        navigation:true,
+        navigationTooltips: ['Inicio', 'Artistas', 'Inicios','IniciosPartII','Sencillos'],
+        showActiveTooltip: true,
+        menu: '#menu'
+    });
+    </script>>
+</body>
+
+</html>
